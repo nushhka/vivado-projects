@@ -1,0 +1,7 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+A = 1001, B = 0110, Subtraction? = 1, C_out_Sign = 0, Output value =  3
+A = 0011, B = 0111, Subtraction? = 1, C_out_Sign = 1, Output value =  4
+A = 1001, B = 1001, Subtraction? = 0, C_out_Sign = 1, Output value = 24
+A = 0011, B = 0111, Subtraction? = 0, C_out_Sign = 1, Output value = 16
+$finish called at time : 240 ns : File "D:/project_5/project_5.srcs/sim_2/new/testbench.v" Line 64

@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/project_5/project_5.srcs/sources_1/new/BCD_Addition_Subtraction.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCD_Addition_Subtraction
+INFO: [VRFC 10-311] analyzing module add_sub
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/project_5/project_5.srcs/sim_2/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench

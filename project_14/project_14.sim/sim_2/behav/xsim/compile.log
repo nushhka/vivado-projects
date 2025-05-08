@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/project_14/project_14.srcs/sources_1/new/evm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module evm
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/project_14/project_14.srcs/sim_2/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module evm_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/project_14/project_14.sim/sim_2/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

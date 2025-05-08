@@ -1,0 +1,7 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/project_10/project_10.sim/sim_2/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+D:/project_10/project_10.srcs/sim_2/new/tb_two_bit_multiplier.v,1710405822,verilog,,,,tb_two_bit_multiplier,,,,,,,,
+D:/project_10/project_10.srcs/sources_1/new/two_bit_multiplier.v,1710405635,verilog,,D:/project_10/project_10.srcs/sim_2/new/tb_two_bit_multiplier.v,,half_adder;two_bit_multiplier,,,,,,,,

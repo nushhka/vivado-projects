@@ -1,0 +1,279 @@
+$date
+   Sun Apr 28 10:19:43 2024
+$end
+$version
+  2018.3
+$end
+$timescale
+  1ps
+$end
+$scope module tb_safe $end
+$var reg 1 ! clk $end
+$var reg 1 " startLoginBtn $end
+$var reg 1 # logoutBtn $end
+$var reg 1 $ rstpwBtn $end
+$var reg 1 % cnf $end
+$var reg 1 & backSpace $end
+$var reg 10 ' keypad [9:0] $end
+$var wire 4 ( an [3:0] $end
+$var wire 7 ) seg [6:0] $end
+$var wire 1 * a $end
+$var wire 1 + b $end
+$var wire 1 , c $end
+$var wire 1 - d $end
+$var wire 1 . p $end
+$var wire 1 / lck $end
+$var wire 3 0 rgb [2:0] $end
+$var wire 7 1 error [6:0] $end
+$var wire 1 2 clko $end
+$scope module safe_inst $end
+$var wire 1 3 clk $end
+$var wire 1 4 startLoginBtn $end
+$var wire 1 5 logoutBtn $end
+$var wire 1 6 rstpwBtn $end
+$var wire 1 7 cnf $end
+$var wire 1 8 backSpace $end
+$var wire 10 9 keypad [9:0] $end
+$var wire 4 ( an [3:0] $end
+$var wire 7 ) seg [6:0] $end
+$var reg 1 : a $end
+$var reg 1 ; b $end
+$var reg 1 < c $end
+$var reg 1 = d $end
+$var wire 1 . p $end
+$var reg 3 > rgb [2:0] $end
+$var reg 7 ? error [6:0] $end
+$var wire 1 2 clko $end
+$var reg 1 @ lck $end
+$var reg 4 A pw0 [3:0] $end
+$var reg 4 B pw1 [3:0] $end
+$var reg 4 C pw2 [3:0] $end
+$var reg 4 D pw3 [3:0] $end
+$var reg 4 E x0 [3:0] $end
+$var reg 4 F x1 [3:0] $end
+$var reg 4 G x2 [3:0] $end
+$var reg 4 H x3 [3:0] $end
+$var reg 2 I attempts [1:0] $end
+$var reg 5 J state [4:0] $end
+$var reg 1 K rst $end
+$var reg 4 L f [3:0] $end
+$var wire 4 M encoded [3:0] $end
+$var parameter 5 N idle [4:0] $end
+$var parameter 5 O startLogin [4:0] $end
+$var parameter 5 P loggedIn [4:0] $end
+$var parameter 5 Q startRstPW [4:0] $end
+$var parameter 5 R locked [4:0] $end
+$var parameter 5 S feeded1 [4:0] $end
+$var parameter 5 T saved1 [4:0] $end
+$var parameter 5 U backed1 [4:0] $end
+$var parameter 5 V feeded2 [4:0] $end
+$var parameter 5 W saved2 [4:0] $end
+$var parameter 5 X backed2 [4:0] $end
+$var parameter 5 Y feeded3 [4:0] $end
+$var parameter 5 Z saved3 [4:0] $end
+$var parameter 5 [ backed3 [4:0] $end
+$var parameter 5 \ feeded4 [4:0] $end
+$var parameter 5 ] saved4 [4:0] $end
+$var parameter 5 ^ backed4 [4:0] $end
+$var parameter 5 _ feed1 [4:0] $end
+$var parameter 5 ` save1 [4:0] $end
+$var parameter 5 a back1 [4:0] $end
+$var parameter 5 b feed2 [4:0] $end
+$var parameter 5 c save2 [4:0] $end
+$var parameter 5 d back2 [4:0] $end
+$var parameter 5 e feed3 [4:0] $end
+$var parameter 5 f save3 [4:0] $end
+$var parameter 5 g back3 [4:0] $end
+$var parameter 5 h feed4 [4:0] $end
+$var parameter 5 i save4 [4:0] $end
+$var parameter 5 j back4 [4:0] $end
+$scope module E $end
+$var wire 10 9 keys [9:0] $end
+$var reg 4 k code [3:0] $end
+$upscope $end
+$scope module C1 $end
+$var wire 1 3 clkin $end
+$var wire 1 2 clkout $end
+$var reg 26 l clkdiv [25:0] $end
+$upscope $end
+$scope module disp $end
+$var wire 4 m dig0 [3:0] $end
+$var wire 4 n dig1 [3:0] $end
+$var wire 4 o dig2 [3:0] $end
+$var wire 4 p dig3 [3:0] $end
+$var wire 1 3 clk $end
+$var wire 1 q rst $end
+$var reg 7 r seg [6:0] $end
+$var reg 4 s an [3:0] $end
+$var wire 2 t select [1:0] $end
+$var reg 4 u dig [3:0] $end
+$var reg 26 v clkdiv [25:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+0&
+b0 '
+bx (
+bx )
+0*
+1+
+1,
+1-
+0.
+0/
+b100 0
+b1001111 1
+x2
+03
+04
+05
+06
+07
+08
+b0 9
+0:
+1;
+1<
+1=
+b100 >
+b1001111 ?
+0@
+b1 A
+b0 B
+b11 C
+b10 D
+b1111 E
+b1111 F
+b1111 G
+b1111 H
+b10 I
+b0 J
+0K
+bx L
+bx M
+b0 N
+b1 O
+b10 P
+b11 Q
+b100 R
+b101 S
+b110 T
+b111 U
+b1000 V
+b1001 W
+b1010 X
+b1011 Y
+b1100 Z
+b1101 [
+b1110 \
+b1111 ]
+b10000 ^
+b10001 _
+b10010 `
+b10011 a
+b10100 b
+b10101 c
+b10110 d
+b10111 e
+b11000 f
+b11001 g
+b11010 h
+b11011 i
+b11100 j
+bx k
+bx l
+b1111 m
+b1111 n
+b1111 o
+b1111 p
+0q
+bx r
+bx s
+bx t
+bx u
+bx v
+$end
+#5000
+1!
+13
+#10000
+0!
+b10 '
+1.
+03
+b10 9
+b1 M
+b1 k
+#15000
+1!
+13
+#20000
+0!
+b11 '
+03
+b11 9
+#25000
+1!
+13
+#30000
+0!
+b0 '
+0.
+03
+b0 9
+#35000
+1!
+13
+#40000
+0!
+b1 '
+1.
+03
+b1 9
+b0 M
+b0 k
+#45000
+1!
+13
+#50000
+0!
+03
+#55000
+1!
+13
+#60000
+0!
+1%
+03
+17
+#65000
+1!
+13
+#70000
+0!
+0%
+03
+07
+#75000
+1!
+13
+#80000
+0!
+03
+#85000
+1!
+13
+#90000
+0!
+03
+#95000
+1!
+13

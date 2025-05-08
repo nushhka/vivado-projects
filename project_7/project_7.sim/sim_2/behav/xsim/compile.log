@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/project_7/project_7.srcs/sources_1/new/pe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module priority_encoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/project_7/project_7.srcs/sim_2/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module priority_encoder_tb

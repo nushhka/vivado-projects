@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="add_sub_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="add_sub" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1000000001fs"></ZoomEndTime>
+      <Cursor1Time time="104603000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="120"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/add_sub/A" type="array">
+      <obj_property name="ElementShortName">A[3:0]</obj_property>
+      <obj_property name="ObjectShortName">A[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/add_sub/B" type="array">
+      <obj_property name="ElementShortName">B[3:0]</obj_property>
+      <obj_property name="ObjectShortName">B[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/add_sub/M" type="logic">
+      <obj_property name="ElementShortName">M</obj_property>
+      <obj_property name="ObjectShortName">M</obj_property>
+   </wvobject>
+   <wvobject fp_name="/add_sub/seg_out" type="array">
+      <obj_property name="ElementShortName">seg_out[6:0]</obj_property>
+      <obj_property name="ObjectShortName">seg_out[6:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/add_sub/c_out_sign" type="logic">
+      <obj_property name="ElementShortName">c_out_sign</obj_property>
+      <obj_property name="ObjectShortName">c_out_sign</obj_property>
+   </wvobject>
+   <wvobject fp_name="/add_sub/out_value" type="logic">
+      <obj_property name="ElementShortName">out_value</obj_property>
+      <obj_property name="ObjectShortName">out_value</obj_property>
+   </wvobject>
+</wave_config>

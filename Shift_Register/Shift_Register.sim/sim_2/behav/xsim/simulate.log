@@ -1,0 +1,6 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+$finish called at time : 40 ns : File "D:/Shift_Register/Shift_Register.srcs/sim_2/new/tb.v" Line 32
+3: 2 bit left shift, data_out = 101000
+Test case 4: 1 bit right shift, data_out = 000100
+$finish called at time : 50 ns : File "D:/Shift_Register/Shift_Register.srcs/sim_2/new/tb.v" Line 65

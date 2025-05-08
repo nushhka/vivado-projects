@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/project_3/project_3.srcs/sources_1/new/four_bit_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-311] analyzing module four_bit_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/project_3/project_3.srcs/sim_2/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+WARNING: [VRFC 10-2502] extra semicolon in $unit (global) scope [D:/project_3/project_3.srcs/sim_2/new/tb.v:38]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/project_3/project_3.sim/sim_2/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
